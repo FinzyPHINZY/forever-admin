@@ -205,7 +205,7 @@ const Add = ({ token }) => {
           <input
             type="number"
             className="w-full px-3 py-2 sm:w-[120px]"
-            placeholder="25000"
+            placeholder="250"
             onChange={(e) => setPrice(e.target.value)}
             value={price}
             required
